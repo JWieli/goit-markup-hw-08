@@ -1,0 +1,49 @@
+.customers-section {
+  padding: 94px 0;
+}
+
+.customers-section__header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 50px;
+}
+
+.customers {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin: 0 auto;
+  padding: 0;
+}
+.customers__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(175, 177, 184, 1);
+  width: 170px;
+  height: 92px;
+  border-radius: 4px;
+
+  &:hover svg,
+  &:focus svg {
+    fill: var(--blue);
+    cursor: pointer;
+    border-color: var(--blue);
+  }
+
+  &:hover,
+  &:focus {
+    border-color: var(--blue);
+    cursor: pointer;
+  }
+}
+
+.customers__list--icons {
+  width: 106px;
+  height: 60px;
+  fill: var(--silver);
+}

@@ -1,0 +1,46 @@
+.page-name {
+  padding: 24px 93px 25px 0px;
+  width: 145px;
+  height: 31px;
+}
+
+.page-name__title {
+  font-weight: bold;
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+  line-height: 1.17;
+  font-family: "Raleway", sans-serif;
+}
+
+.page-name__title--blue {
+  color: var(--blue);
+
+  &:hover,
+  &:focus {
+    color: var(--blue);
+    cursor: pointer;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+.page-name__title--black {
+  color: var(--black);
+
+  &:hover,
+  &:focus {
+    color: var(--blue);
+    cursor: pointer;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+.page-name__title--white {
+  color: var(--main-white);
+
+  &:hover,
+  &:focus {
+    color: var(--blue);
+    cursor: pointer;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}

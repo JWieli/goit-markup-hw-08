@@ -1,0 +1,12 @@
+.header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(236, 236, 236, 1);
+}
+
+.header__menu {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}

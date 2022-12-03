@@ -12,3 +12,11 @@ a:link {
   margin: 0 auto;
   width: 1200px;
 }
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 450px;
+    margin: 0 auto;
+  }
+
+}

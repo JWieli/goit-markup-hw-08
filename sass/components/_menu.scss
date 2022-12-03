@@ -83,3 +83,23 @@
   padding-right: 10px;
   fill: var(--silver);
 }
+
+.mobile-menu {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .menu {
+    display: none;
+  }
+
+  .mobile-menu {
+    padding-left: 233px;
+    display: block;
+  }
+
+  .mobile-menu__icon {
+    width: 40px;
+    height: 60px;
+  }
+}

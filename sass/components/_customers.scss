@@ -47,3 +47,23 @@
   height: 60px;
   fill: var(--silver);
 }
+
+@media screen and (max-width: 480px) {
+  .customers-section {
+    padding: 60px 0;
+  }
+
+  .customers-section__header {
+    font-size: 28px;
+    padding-bottom: 30px;
+  }
+
+  .customers {
+    flex-wrap: wrap;
+  }
+
+  .customers__list {
+    flex-wrap: wrap;
+    width: 205px;
+  }
+}

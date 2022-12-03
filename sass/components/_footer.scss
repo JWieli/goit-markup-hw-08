@@ -46,3 +46,38 @@
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
+
+.page-name__title--white {
+  color: var(--main-white);
+
+  &:hover,
+  &:focus {
+    color: var(--blue);
+    cursor: pointer;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .page-name {
+    display: flex;
+    justify-content: center;
+    width: 154px;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .footer__wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer__address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+  }
+}

@@ -47,3 +47,27 @@
     rgba(255, 255, 255, 0.1)
   );
 }
+
+@media screen and (max-width: 480px) {
+  .social-links {
+  height: 44px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.social-links__header {
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.social-links__icon-list {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+}

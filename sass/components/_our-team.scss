@@ -85,3 +85,36 @@
   width: 20px;
   height: 20px;
 }
+
+@media screen and (max-width: 480px) {
+  .our-team-section {
+  padding: 60px 0;
+}
+
+.our-team-section__header {
+  font-size: 28px;
+  padding-bottom: 30px;
+}
+
+.our-team-section__photos {
+  flex-direction: column;
+}
+
+.our-team-section__photos--properties {
+  width: 450px;
+  height: 622px;
+}
+
+.our-team-section__icon-list {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.our-team-section__icons-properties {
+  fill: var(--icons);
+  width: 20px;
+  height: 20px;
+}
+
+}

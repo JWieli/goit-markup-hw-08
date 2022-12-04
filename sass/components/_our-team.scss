@@ -86,7 +86,7 @@
   height: 20px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width:768px) {
   .our-team-section {
   padding: 60px 0;
 }
@@ -101,7 +101,7 @@
 }
 
 .our-team-section__photos--properties {
-  width: 450px;
+  padding: 0px 20px;
   height: 622px;
 }
 

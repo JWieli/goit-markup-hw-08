@@ -2,8 +2,8 @@
   padding: 24px 93px 25px 0px;
   width: 145px;
   height: 31px;
-    display:flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .page-name__title {
@@ -37,20 +37,10 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .page-name {
-    padding: 16px 0px 16px 15px;
+    padding: 16px 0px;
     width: 145px;
     height: 31px;
-  }
-
-
-  .page-name__title {
-    font-weight: bold;
-    font-weight: 700;
-    font-size: 26px;
-    text-decoration: none;
-    line-height: 1.17;
-    font-family: "Raleway", sans-serif;
   }
 }

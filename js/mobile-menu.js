@@ -1,13 +1,11 @@
-(() => {
-  const menuOpenBtn = document.querySelector("[data-menu-open]");
-  const menuCloseBtn = document.querySelector("[data-menu-close]");
+const menuOverlay = document.querySelector(".mobile-menu");
+const closeMenuButton = document.querySelector(".toggle-menu");
+const openMenuBtn = document.querySelector(".header__link-logo");
 
-  const mobileMenu = document.querySelector("[data-menu]");
+openMenuBtn.addEventListener("click", (e) => {
+  menuOverlay.classList.remove("d-none");
+});
 
-  menuOpenBtn.addEventListener("click", openModal);
-  menuCloseBtn.addEventListener("click", openModal);
-
-  function openModal() {
-    mobileMenu.classList.toggle("is-open");
-  }
-})();
+closeMenuButton.addEventListener("click", (e) => {
+  menuOverlay.classList.add("d-none");
+});

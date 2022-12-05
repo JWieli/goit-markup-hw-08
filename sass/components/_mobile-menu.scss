@@ -70,6 +70,8 @@
     height: 100vw;
     position: relative;
     padding: 48px 40px;
+    justify-content: space-around;
+   
   }
 
   .mobile-menu__close-button {
@@ -113,6 +115,7 @@
     display: flex;
     flex-direction: column;
     gap: 32px;
+     flex-wrap:wrap;
   }
 
   .mobile-menu-navigation__pages--text {
@@ -133,7 +136,6 @@
     flex-direction: column;
     flex-wrap: wrap;
     gap: 32px;
-    padding-top: 302px;
   }
 
   .mobile-menu-navigation__contact--email {
@@ -168,6 +170,7 @@
     flex-direction: row;
     padding-top: 64px;
     gap: 20px;
+     flex-wrap:wrap;
   }
   .mobile-menu-navigation__social-links--media {
     font-weight: 500;

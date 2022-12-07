@@ -1,5 +1,6 @@
 @media screen and (max-width: 768px) {
   .mobile-menu {
+    z-index: 4;
     height: 100%;
     width: 100%;
     border-radius: 4px;
@@ -71,7 +72,6 @@
     position: relative;
     padding: 48px 40px;
     justify-content: space-around;
-   
   }
 
   .mobile-menu__close-button {
@@ -115,7 +115,7 @@
     display: flex;
     flex-direction: column;
     gap: 32px;
-     flex-wrap:wrap;
+    flex-wrap: wrap;
   }
 
   .mobile-menu-navigation__pages--text {
@@ -170,7 +170,7 @@
     flex-direction: row;
     padding-top: 64px;
     gap: 20px;
-     flex-wrap:wrap;
+    flex-wrap: wrap;
   }
   .mobile-menu-navigation__social-links--media {
     font-weight: 500;

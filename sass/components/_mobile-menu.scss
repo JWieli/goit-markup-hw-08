@@ -1,19 +1,13 @@
 @media screen and (max-width: 768px) {
   .mobile-menu {
+    position: fixed;
     z-index: 4;
     height: 100%;
     width: 100%;
-    border-radius: 4px;
     background-color: var(--main-white);
-    box-shadow: 0px 2px 1px 0px #00000033;
-    box-shadow: 0px 1px 1px 0px #00000024;
-    box-shadow: 0px 1px 3px 0px #0000001f;
-    position: relative;
-    margin: auto;
-    opacity: inherit;
-    visibility: inherit;
-    transition-property: visibility, opacity;
+    opacity: 0;
     transition-duration: 250ms;
+  transform: translateX(100%);
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
@@ -26,7 +20,6 @@
     position: relative;
     background-color: var(--main-white);
     z-index: 4;
-    overflow: hidden;
   }
 
   .mobile-menu__open-button {

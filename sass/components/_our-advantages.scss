@@ -81,6 +81,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    flex-wrap: wrap;
   }
 
   .our-advantages__icons {
@@ -93,10 +94,11 @@
   .our-advantages__headers {
     text-align: center;
     justify-content: center;
+    flex-wrap: wrap;
   }
 
   .our-advantages__text {
-    width: 450px;
+    width: 100%;
     text-align: center;
     height: 50px;
   }

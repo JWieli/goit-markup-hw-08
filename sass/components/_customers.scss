@@ -50,7 +50,6 @@
 @media screen and (max-width: 768px) {
   .customers-section {
     padding: 60px 0;
-  }
 
   .customers-section__header {
     font-size: 28px;
@@ -63,6 +62,7 @@
 
   .customers__list {
     flex-wrap: wrap;
-    width: 205px;
+    width: calc(100% / 2);
+    gap: 15px;
   }
 }

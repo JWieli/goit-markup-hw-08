@@ -91,15 +91,17 @@
 .our-team-section__header {
   font-size: 28px;
   padding-bottom: 30px;
+  flex-wrap: wrap;
 }
 
 .our-team-section__photos {
   flex-direction: column;
+  width: 100%;
 }
-
 .our-team-section__photos--properties {
   padding: 0px 20px;
   height: 622px;
+  width: 100%;
 }
 
 .our-team-section__icon-list {

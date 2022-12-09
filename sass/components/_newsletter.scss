@@ -1,5 +1,4 @@
 .newsletter {
-  width: 570px;
   padding: 0;
   margin-left: 78px;
   border: none;
@@ -7,7 +6,6 @@
 }
 
 .newsletter__header {
-  height: 16px;
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -75,7 +73,7 @@
   padding-left: 24px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .newsletter {
     padding-top: 60px;
     margin: 0;

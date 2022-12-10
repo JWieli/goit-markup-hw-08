@@ -46,7 +46,7 @@
   );
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 480px) {
   .social-links {
     height: 44px;
     justify-content: center;

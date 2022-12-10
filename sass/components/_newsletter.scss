@@ -73,7 +73,7 @@
   padding-left: 24px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 480px) {
   .newsletter {
     padding-top: 60px;
     margin: 0;

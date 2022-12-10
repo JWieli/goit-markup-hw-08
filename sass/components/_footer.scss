@@ -58,7 +58,7 @@
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (min-width: 480px) {
   .page-name {
     display: flex;
     justify-content: center;

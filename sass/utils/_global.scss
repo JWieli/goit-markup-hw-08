@@ -10,17 +10,11 @@ a:link {
 
 .container {
   margin: 0 auto;
-  width: 1200px;
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 15px;
 }
 
 .d-none {
   display: none;
-}
-
-@media screen and (max-width: 768px) {
-  .container {
-    max-width: 768px;
-    margin: 0 auto;
-    padding: 0 15px;
-  }
 }

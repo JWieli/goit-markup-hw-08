@@ -84,7 +84,7 @@
   fill: var(--silver);
 }
 
-@media screen and (max-width:768px) {
+@media screen and (min-width: 320px) {
   .menu {
     display: none;
   }

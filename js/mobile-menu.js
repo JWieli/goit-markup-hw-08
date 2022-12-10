@@ -1,5 +1,7 @@
 const menuOverlay = document.querySelector(".mobile-menu");
-const closeMenuButton = document.querySelector(".mobile-menu__close-button");
+const closeMenuButton = document.querySelector(
+  ".mobile-menu__close-button--properties"
+);
 const openMenuBtn = document.querySelector(".mobile-menu__open-button");
 
 openMenuBtn.addEventListener("click", (e) => {
@@ -7,5 +9,5 @@ openMenuBtn.addEventListener("click", (e) => {
 });
 
 closeMenuButton.addEventListener("click", (e) => {
-  menuOverlay0.classList.add("d-none");
+  menuOverlay.classList.add("d-none");
 });

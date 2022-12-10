@@ -11,13 +11,11 @@
 .mobile-menu__content {
   width: 100vw;
   height: 100vw;
-  background-color: var(--main-white);
   z-index: 4;
   padding: 48px 40px;
   justify-content: space-around;
-  position: fixed;
-  top: 0;
-  left: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .mobile-menu__open-button {

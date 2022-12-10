@@ -67,7 +67,33 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
 
+@media screen and (min-width: 768px) {
+  .our-advantages {
+    padding-top: 60px;
+    flex-direction: row;
+  }
+
+  .our-advantages__list {
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .our-advantages__item {
+    width: calc((100% / 2) - 15px);
+  }
+
+  .our-advantages__headers {
+    justify-content: left;
+    flex-wrap: wrap;
+  }
+
+  .our-advantages__text {
+    width: 100%;
+    text-align: left;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -83,7 +109,7 @@
   }
 
   .our-advantages__item {
-    width: calc((100% / 4) - 25px);
+    width: calc((100% / 4) - 23px);
   }
 
   .our-advantages__headers {

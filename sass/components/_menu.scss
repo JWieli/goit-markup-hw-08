@@ -13,6 +13,7 @@
     padding: 0;
     list-style-type: none;
     justify-content: space-around;
+    align-items: center;
   }
   .menu__navigation {
     width: calc(100% / 3);
@@ -22,6 +23,7 @@
     text-decoration: none;
     line-height: 1.17;
     letter-spacing: 0.02em;
+    
   }
 
   .menu__address {
@@ -29,6 +31,7 @@
     margin: 0;
     display: flex;
     flex-direction: column;
+    
   }
 
   .menu__navigation--text {
@@ -101,10 +104,10 @@
     padding: 0;
     box-sizing: border-box;
     list-style-type: none;
+    padding-top: 0;
   }
   .menu__navigation {
     margin-right: 345px;
-    gap: 46px;
     font-weight: 500;
     color: var(--black2);
     font-size: 14px;

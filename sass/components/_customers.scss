@@ -17,8 +17,8 @@
   gap: 10px;
   margin: 0 auto;
   padding: 0;
-justify-content: space-around;
-flex-wrap: wrap;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 .customers__list {
   display: flex;
@@ -31,7 +31,6 @@ flex-wrap: wrap;
   width: 100%;
   flex-wrap: wrap;
   width: calc((100% - 30px) / 2);
-
 
   &:hover svg,
   &:focus svg {
@@ -50,6 +49,12 @@ flex-wrap: wrap;
 .customers__list--icons {
   height: 60px;
   fill: var(--silver);
+}
+
+@media screen and (min-width: 768px) {
+  .customers__list {
+    width: calc((100% / 3) - 27px);
+  }
 }
 
 @media screen and (min-width: 1200px) {

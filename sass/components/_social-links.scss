@@ -51,6 +51,13 @@
   );
 }
 
+@media screen and (min-width: 768px) {
+  .social-links {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
 
   .social-links__header {

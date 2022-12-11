@@ -78,6 +78,19 @@
   height: 24px;
   padding-left: 24px;
 }
+@media screen and (min-width: 768px) {
+  .newsletter__input {
+    width: 450px;
+  }
+
+  .newsletter {
+    margin: 0 auto;
+  }
+    .newsletter__button {
+      justify-content: center;
+      margin: 0 auto;
+  }
+}
 
 @media screen and (min-width: 1200px) {
   .newsletter {

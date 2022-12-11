@@ -21,6 +21,7 @@
 .newsletter__form {
   display: flex;
   margin-top: 20px;
+  flex-direction: column;
 }
 
 .newsletter__input {
@@ -85,6 +86,7 @@
     display: flex;
     margin-top: 20px;
     flex-wrap: wrap;
+    flex-direction: row;
   }
 
   .newsletter__input {

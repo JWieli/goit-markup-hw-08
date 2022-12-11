@@ -1,5 +1,5 @@
 .customers-section {
-  padding: 60px 0;
+  padding: 60px 0px;
 }
 
 .customers-section__header {
@@ -14,10 +14,11 @@
 .customers {
   display: flex;
   flex-direction: row;
-  gap: 30px;
+  gap: 10px;
   margin: 0 auto;
   padding: 0;
-  width: 100%;
+justify-content: space-around;
+flex-wrap: wrap;
 }
 .customers__list {
   display: flex;
@@ -27,8 +28,10 @@
   border: 1px solid rgba(175, 177, 184, 1);
   height: 92px;
   border-radius: 4px;
-  width: calc((100% / 2) - 17px);
+  width: 100%;
   flex-wrap: wrap;
+  width: calc((100% - 30px) / 2);
+
 
   &:hover svg,
   &:focus svg {

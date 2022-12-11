@@ -1,7 +1,17 @@
+@media screen and (min-width: 320px) {
+  .segments {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
 .segments {
   display: flex;
   flex-direction: column;
   padding-bottom: 94px;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .segments__header {
@@ -20,6 +30,10 @@
   padding: 0;
   margin: 0;
   list-style-type: none;
+  margin: 0 auto;
+  justify-content: center;
+  width: 100%;
+
 }
 
 .segments__additional-block {
@@ -50,9 +64,4 @@
   letter-spacing: 0.03em;
   margin: 0;
 }
-
-@media screen and (min-width: 320px) {
-  .segments {
-    display: none;
-  }
 }

@@ -21,8 +21,7 @@
   margin: 0 auto;
   padding: 0;
   list-style-type: none;
-  width: 100%;
-  margin: 0 auto;
+  width: calc(100% - 30px);
 }
 .our-team-section__photos--properties {
   background-color: var(--main-white);

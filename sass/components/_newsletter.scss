@@ -1,6 +1,5 @@
 .newsletter {
   padding: 0;
-  margin-left: 78px;
   border: none;
   padding-top: 60px;
   margin: 0;
@@ -39,7 +38,6 @@
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: 0.03em;
-    padding-left: 16px;
   }
 
   &:hover {
@@ -70,7 +68,6 @@
   letter-spacing: 0.06em;
   align-items: center;
   display: flex;
-  padding-left: 42px;
 }
 
 .newsletter__button--icon {
@@ -82,7 +79,6 @@
 @media screen and (min-width: 1200px) {
   .newsletter {
     margin-top: 10px;
-    padding-left: 20px;
   }
 
   .newsletter__form {

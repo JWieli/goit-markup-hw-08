@@ -1,7 +1,11 @@
 .customers-section {
   padding: 60px 0px;
+  width: calc(100% - 30px);
 }
 
+// .customers__container {
+//   padding: 0;
+// }
 .customers-section__header {
   font-weight: 700;
   line-height: 1.17;

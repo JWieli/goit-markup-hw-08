@@ -80,21 +80,24 @@
 }
 @media screen and (min-width: 768px) {
   .newsletter__input {
-    width: 450px;
+    width: 500px;
   }
 
   .newsletter {
     margin: 0 auto;
   }
-    .newsletter__button {
+   .newsletter__button {
       justify-content: center;
-      margin: 0 auto;
+      margin: 0 auto;  
+    margin-bottom: 30px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .newsletter {
     padding: 0;
+    max-width: calc(100% - 215px);
+    flex-wrap: wrap;
   }
 
   .newsletter__form {
@@ -110,7 +113,8 @@
     justify-content: center;
     height: 50px;
     margin: 0 auto;
-    width: 358px;
+    max-width: 358px;
+    flex-wrap: wrap;
   }
 
   .mobile-newsletter_button {

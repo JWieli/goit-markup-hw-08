@@ -82,14 +82,13 @@
   .footer {
     padding: 60px 0;
     max-width: 100%;
-    padding-left: 215px;
+    padding-left: 0px;
   }
   .footer__container {
     display: flex;
     justify-content: space-around;
     align-items: baseline;
     flex-wrap: wrap;
-    padding: 0 15px;
   }
   .footer__wrapper--properties {
     display: flex;
@@ -110,8 +109,7 @@
 
 @media screen and (min-width: 1200px) {
   .footer {
-    padding-left: 330px;
-    width: calc(100% - 330px);
+    padding-left: 215px;
   }
 
   .page-name__footer {

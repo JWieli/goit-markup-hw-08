@@ -83,8 +83,6 @@
     padding: 60px 0;
     max-width: 100%;
   }
-  .page-name__footer {
-  }
   .footer__container {
     display: flex;
     justify-content: space-around;
@@ -110,9 +108,9 @@
 }
 
 @media screen and (min-width: 1200px) {
-.footer {
-  padding-left: 100px;
-}
+  .footer {
+    padding-left: 100px;
+  }
 
   .page-name__footer {
     justify-content: left;

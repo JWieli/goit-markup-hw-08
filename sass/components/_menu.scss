@@ -107,7 +107,6 @@
     padding-top: 0;
   }
   .menu__navigation {
-    margin-right: 345px;
     font-weight: 500;
     color: var(--black2);
     font-size: 14px;
@@ -120,6 +119,11 @@
     padding: 32px 0;
     margin: 0;
     gap: 30px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .menu__address--text {
     display: flex;
     flex-direction: row;
   }

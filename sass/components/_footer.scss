@@ -82,6 +82,7 @@
   .footer {
     padding: 60px 0;
     max-width: 100%;
+    padding-left: 215px;
   }
   .footer__container {
     display: flex;
@@ -109,7 +110,8 @@
 
 @media screen and (min-width: 1200px) {
   .footer {
-    padding-left: 100px;
+    padding-left: 330px;
+    width: calc(100% - 330px);
   }
 
   .page-name__footer {
